@@ -1,15 +1,7 @@
-img {
-	width:30%;
-	float:left;
-	margin:1.66%;
-}
+body {
 
-h1 {
-	margin-left: 1.66%;
-	padding-bottom:20px;
-	border-bottom:solid 1px #F1F1F1;
-	width:30%;
-	text-transform: uppercase;
-	font-weight: 800;
-	font-family:Arial;
-}
+	background: url("MountainRange1.png");
+	background-size: cover;
+	background-position: center;
+}	
+	
