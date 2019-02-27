@@ -1,7 +1,6 @@
 body {
-
-	background: url("MountainRange1.png");
-	background-size: cover;
-	background-position: center;
+	background-image: url("MountainRange1.png");
+	width:100%;
+	height:100%;
 }	
 	
