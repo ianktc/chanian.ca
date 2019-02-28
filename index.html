@@ -1,24 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Photo Blog</title>
+
+	<title>Ian Chan</title>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css.css">
-</head>
-<body>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div id = "content"><h1>coming soon</h1>
-					<h3>www.chanian.ca</h3>
-					<hr>
+</head>
+	<body class="col-xl-12">
+
+		<!-- Nav Bar -->
+
+		<nav id = "main-nav" class="navbar navbar-expand-md py-0 fixed-top">
+	    	<a href="#" class="navbar-brand">IAN/CHAN</a>
+	      	<button class="navbar-toggler" data-toggle = "collapse" data-target = "#navLinks" aria-label = "Toggle navigation">
+	         <span class="navbar-toggler-icon"></span>
+	      	</button>
+	      	
+	      	<div class="collapse navbar-collapse" id="navLinks">
+	        <ul class="navbar-nav" id="navPages">
+	          <li class="nav-item">
+	            <a href="#" class="nav-link">EXPERIENCE</a>
+	          </li>
+
+	          <li class="nav-item">
+	            <a href="#" class="nav-link">PROJECTS</a>
+	          </li>
+
+			  <li class="nav-item">
+	            <a href="#" class="nav-link">MUSINGS</a>
+	          </li>
+	        </ul>
+	      	</div>
+    	</nav>
+
+    	<!-- Welcome Banner -->
+
+		<div class="welcome">
+			<div class="row">
+				<div class="col-xl-12 welcome">
+					<div id = "welcome"><h1>coming soon</h1>
+						<h3>www.chanian.ca</h3>
+						<hr>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-</body>
+		<!-- About Page -->
+
+		<div class="about">
+			<div class="container py-5">
+				<h1 class ="display-3">About</h1>
+				<p class="aboutMeText pt-5 px-5"> <--LitIpsum!--> I came tiptoe into our own room, and found Mina asleep, breathing so softly that I had to put my ear down to hear it. She looks paler than usual. I hope the meeting to-night has not upset her. I am truly thankful that she is to be left out of our future work, and even of our deliberations. It is too great a strain for a woman to bear. I did not think so at first, but I know better now. Therefore I am glad that it is settled. There may be things which would frighten her to hear; and yet to conceal them from her might be worse than to tell her if once she suspected that there was any concealment. Henceforth our work is to be a sealed book to her, till at least such time as we can tell her that all is finished, and the earth free from a monster of the nether world. I daresay it will be difficult to begin to keep silence after such confidence as ours; but I must be resolute, and to-morrow I shall keep dark over to-night's doings, and shall refuse to speak of anything that has happened. I rest on the sofa, so as not to disturb her. 1 October, later.--I suppose it was natural that we should have all overslept ourselves, for the day was a busy one, and the night had no rest at all. Even Mina must have felt its exhaustion, for though I slept till the sun was high, I was awake before her, and had to call two or three times before she awoke. Indeed, she was so sound asleep that for a few seconds she did not recognize me, but looked at me with a sort of blank terror, as one looks who has been waked out of a bad dream. She complained a little of being tired, and I let her rest till later in the day. We now know of twenty-one boxes having been removed, and if it be that several were taken in any of these removals we may be able to trace them all. Such will, of course, immensely simplify our labour, and the sooner the matter is attended to the better. I shall look up Thomas Snelling to-day. 1 October.--It was towards noon when I was awakened by the Professor walking into my room. He was more jolly and cheerful than usual, and it is quite evident that last night's work has helped to take some of the brooding weight off his mind. After going over the adventure of the night he suddenly said:-</p>
+			</div>
+
+		</div>
+
+	<script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#main");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+	</body>
 </html>
 	

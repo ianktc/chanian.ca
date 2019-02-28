@@ -1,0 +1,70 @@
+body { 
+	background-image: url("MountainRange1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 70%;
+	background-attachment: fixed;
+	color: #1C2F7A;
+}	
+
+h1 {
+	font-family: 'PT Mono', monospace;
+	font-weight: 500;
+	font-size: 7em;
+	color: #1C2F7A;
+}
+
+h3 {
+	font-family: 'PT Mono', monospace;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 2em;
+	color: #1C2F7A;
+}
+
+hr {
+	width: 400px;
+	color: white;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2) 
+}
+
+
+.navbar-brand {
+	color: #1C2F7A;
+}
+
+.nav-link {
+	color: #1C2F7A;
+}
+#welcome {
+	text-align: center;
+	padding-top: 20%;
+}
+ 
+.about {
+	background:rgba(99, 101, 104,0.35);
+	margin-top: 25rem;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-bottom:5rem;
+}
+
+.display-3 {
+	font-family: 'Trebuchet MS';
+	font-weight: 500;
+	text-align: center;
+}
+
+.aboutMeText {
+	font-size: 1.5rem;
+}
+
+.about, .display-3{
+	color: #FAEBD7;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
