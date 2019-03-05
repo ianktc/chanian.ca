@@ -13,27 +13,24 @@
 
 		<!-- Nav Bar -->
 
-		<nav id = "main-nav" class="navbar navbar-expand-md py-0 fixed-top">
-	    	<a href="#" class="navbar-brand">IAN/CHAN</a>
-	      	<button class="navbar-toggler" data-toggle = "collapse" data-target = "#navLinks" aria-label = "Toggle navigation">
+		<nav id = "mainNavbar" class="navbar py-0 fixed-top">
+	    	
+
+	      	<button class="navbar-toggler navbar-light" data-toggle = "collapse" data-target = "#navLinks" aria-label = "Toggle navigation">
 	         <span class="navbar-toggler-icon"></span>
 	      	</button>
 	      	
 	      	<div class="collapse navbar-collapse" id="navLinks">
-	        <ul class="navbar-nav" id="navPages">
-	          <li class="nav-item">
-	            <a href="#" class="nav-link">EXPERIENCE</a>
-	          </li>
-
-	          <li class="nav-item">
-	            <a href="#" class="nav-link">PROJECTS</a>
-	          </li>
+			<a href="index.html" class="navbar-brand">IAN/CHAN</a>
+	        <ul class="navbar-nav">
 
 			  <li class="nav-item">
 	            <a href="#" class="nav-link">MUSINGS</a>
 	          </li>
+
 	        </ul>
 	      	</div>
+
     	</nav>
 
     	<!-- Welcome Banner -->
@@ -52,21 +49,25 @@
 		<!-- About Page -->
 
 		<div class="about">
-			<div class="container py-5">
-				<h1 class ="display-3">About</h1>
-				<p class="aboutMeText pt-5 px-5"> <--LitIpsum!--> I came tiptoe into our own room, and found Mina asleep, breathing so softly that I had to put my ear down to hear it. She looks paler than usual. I hope the meeting to-night has not upset her. I am truly thankful that she is to be left out of our future work, and even of our deliberations. It is too great a strain for a woman to bear. I did not think so at first, but I know better now. Therefore I am glad that it is settled. There may be things which would frighten her to hear; and yet to conceal them from her might be worse than to tell her if once she suspected that there was any concealment. Henceforth our work is to be a sealed book to her, till at least such time as we can tell her that all is finished, and the earth free from a monster of the nether world. I daresay it will be difficult to begin to keep silence after such confidence as ours; but I must be resolute, and to-morrow I shall keep dark over to-night's doings, and shall refuse to speak of anything that has happened. I rest on the sofa, so as not to disturb her. 1 October, later.--I suppose it was natural that we should have all overslept ourselves, for the day was a busy one, and the night had no rest at all. Even Mina must have felt its exhaustion, for though I slept till the sun was high, I was awake before her, and had to call two or three times before she awoke. Indeed, she was so sound asleep that for a few seconds she did not recognize me, but looked at me with a sort of blank terror, as one looks who has been waked out of a bad dream. She complained a little of being tired, and I let her rest till later in the day. We now know of twenty-one boxes having been removed, and if it be that several were taken in any of these removals we may be able to trace them all. Such will, of course, immensely simplify our labour, and the sooner the matter is attended to the better. I shall look up Thomas Snelling to-day. 1 October.--It was towards noon when I was awakened by the Professor walking into my room. He was more jolly and cheerful than usual, and it is quite evident that last night's work has helped to take some of the brooding weight off his mind. After going over the adventure of the night he suddenly said:-</p>
+			<div class="container py-3">
+				<h1 class ="display-3">about me</h1>
+				<hr id="secondHr" class="mt-5">
+				
+				<img src="headshot.jfif" class="headshot my-5">
+				<h1 class= "heading py-3 aboutMeText">My name is Ian.</h1>
+				<p class="py-4 aboutMeText">I am currently in First Year General Engineering at the University of Toronto.</p> 
+				<p class="aboutMeText">I created this website with the intention of exploring Web Development, while also exposing myself to some of the nuances of Web Design. I enjoy learning about and trying new things in general. Follow my website as I pick up new things in my life outside of University.</p>
 			</div>
-
 		</div>
 
-	<script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#main");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 	</body>
 </html>

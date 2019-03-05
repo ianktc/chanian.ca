@@ -7,6 +7,8 @@ body {
 	color: #1C2F7A;
 }	
 
+/*welcome banner styles*/
+
 h1 {
 	font-family: 'PT Mono', monospace;
 	font-weight: 500;
@@ -29,42 +31,103 @@ hr {
 	border-bottom: 1px solid rgba(0,0,0,0.2) 
 }
 
-
-.navbar-brand {
-	color: #1C2F7A;
-}
-
-.nav-link {
-	color: #1C2F7A;
-}
 #welcome {
 	text-align: center;
 	padding-top: 20%;
 }
+
+/*navbar styles*/
+
+.mainNavbar{
+	margin-top:5rem;
+}
+
+.navbar-brand {
+	margin-left: 0.9rem;
+	color: #1C2F7A;
+}
+
+.nav-link {
+	margin-left: 0.9rem;
+	color: #1C2F7A;
+}
+
+/*makes hamburger menu blue*/
+.navbar-light .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(27,51,125)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*following two classes make border transparent*/
+.navbar-toggler:focus {
+	outline:none !important;
+}
+
+.navbar-toggler {
+	margin-top:1rem;
+	border:transparent;
+}
  
+/*about pages styles*/
+
 .about {
-	background:rgba(99, 101, 104,0.35);
-	margin-top: 25rem;
+	background:rgba(99, 101, 104,0.65);
+	margin-top: 30rem;
+	padding-top: 5rem;
 	margin-right: 5rem;
 	margin-left: 5rem;
 	margin-bottom:5rem;
+	text-align: left;
+	color: #FAEBD7;
 }
 
 .display-3 {
 	font-family: 'Trebuchet MS';
 	font-weight: 500;
 	text-align: center;
+	color: #FAEBD7;
 }
 
 .aboutMeText {
 	font-size: 1.5rem;
+	padding-right: 12rem;
+	padding-left: 12rem;
+	text-align: left;
 }
 
-.about, .display-3{
+.about p{
+	text-align: left;
 	color: #FAEBD7;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-bottom: 5rem;
 }
+
+.heading {
+	font-size: 2rem;
+	text-align: left;
+	color: black;
+}
+
+.headshot {
+	border-radius: 50%;
+}
+
+.headshot{
+	display: block;
+	height: 15%;
+	width: 15%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#secondHr {
+	color: #FAEBD7;
+	width: 15rem;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2) 
+}
+
 
 ::-webkit-scrollbar { 
     display: none; 
 }
-
