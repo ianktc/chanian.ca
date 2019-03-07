@@ -46,13 +46,7 @@ hr {
 	margin-top:5rem;
 }
 
-.navbar-brand {
-	margin-left: 0.9rem;
-	color: #1C2F7A;
-}
-
-.nav-link {
-	margin-left: 0.9rem;
+.navbar-brand, .nav-link {
 	color: #1C2F7A;
 }
 
@@ -76,7 +70,6 @@ hr {
 .about {
 	background:rgba(99, 101, 104,0.65);
 	margin-top: 30rem;
-	padding-top: 3rem;
 	margin-right: 8rem;
 	margin-left: 8rem;
 	margin-bottom:3rem;
@@ -98,7 +91,7 @@ hr {
 	text-align: left;
 }
 
-.about p{
+.aboutMeText p{
 	text-align: left;
 	color: #FAEBD7;
 	line-height: 2rem;
@@ -130,6 +123,8 @@ hr {
 ::-webkit-scrollbar { 
     display: none; 
 }
+
+/*making responive*/
 
 @media (min-width: 400px) {
 	#websiteTag {
