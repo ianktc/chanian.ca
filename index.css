@@ -33,7 +33,11 @@ hr {
 
 #welcome {
 	text-align: center;
-	padding-top: 20%;
+}
+
+#websiteTag {
+	text-align: center;
+	padding-top: 25rem;
 }
 
 /*navbar styles*/
@@ -72,10 +76,10 @@ hr {
 .about {
 	background:rgba(99, 101, 104,0.65);
 	margin-top: 30rem;
-	padding-top: 5rem;
-	margin-right: 5rem;
-	margin-left: 5rem;
-	margin-bottom:5rem;
+	padding-top: 3rem;
+	margin-right: 8rem;
+	margin-left: 8rem;
+	margin-bottom:3rem;
 	text-align: left;
 	color: #FAEBD7;
 }
@@ -89,17 +93,16 @@ hr {
 
 .aboutMeText {
 	font-size: 1.5rem;
-	padding-right: 12rem;
-	padding-left: 12rem;
+	padding-right: 8rem;
+	padding-left: 8rem;
 	text-align: left;
 }
 
 .about p{
 	text-align: left;
 	color: #FAEBD7;
-	font-size: 1.5rem;
 	line-height: 2rem;
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 }
 
 .heading {
@@ -108,11 +111,8 @@ hr {
 	color: black;
 }
 
-.headshot {
-	border-radius: 50%;
-}
-
 .headshot{
+	border-radius: 50%;
 	display: block;
 	height: 15%;
 	width: 15%;
@@ -122,12 +122,48 @@ hr {
 
 #secondHr {
 	color: #FAEBD7;
-	width: 15rem;
-	border-top: 1px solid #f8f8f8;
+	width: 12rem;
+	border-top: 3px solid #1C2F7A;
 	border-bottom: 1px solid rgba(0,0,0,0.2) 
 }
 
-
 ::-webkit-scrollbar { 
     display: none; 
+}
+
+@media (min-width: 400px) {
+	#websiteTag {
+		font-size: 2rem;
+		vertical-align: middle;
+	}
+	hr {
+		width: 10rem;
+	}
+}
+
+@media (max-width: 960px) {
+	.aboutMeText {
+		font-size: 1rem;
+		padding-right: 3rem;
+		padding-left: 3rem
+	}
+
+	.about{
+		margin-left: 0.4em;
+		margin-right: 0.4rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.display-3{
+		font-size: 2.25rem;
+	}
+
+	.headshot {
+		height: 15%;
+		width: 15%;
+	}
+
+	#secondHr {
+		width: 5rem;
+	}
 }
