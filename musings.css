@@ -1,7 +1,7 @@
 .title {
-	text-align: center;
-	font-weight:400;
-	margin-top:6rem;
+text-align: center;
+font-weight:400;
+margin-top:3rem;
 }
 
 hr {
@@ -60,31 +60,7 @@ hr {
 	font-size: 1.5rem;
 }
 
-/*@media screen and (min-width: 415px){
-	.title {
-		font-weight: 300;
-		margin-left: 20rem;
-		margin-right: 20rem;
-		margin-top: 10rem;
-	}
-	.blog{
-		margin-left:2rem;
-		margin-right:2rem;
-	}
-	.navbar-toggler-icon{
-		height: 5rem;
-		width: 5rem;
-		margin-top:2rem;
-		margin-left: 2rem;
-	}
-	.navbar-brand, .nav-link {
-	margin-left: 3.5rem;
-	color: #1C2F7A;
-	font-size:3rem;
-	}
-}*/
-
-@media screen (max-width: 500px) {
+@media screen and (max-width: 415px){
 	.title {
 		font-weight: 300;
 		margin-top: 10rem;
