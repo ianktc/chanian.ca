@@ -50,12 +50,10 @@ hr {
 	letter-spacing: 0.15rem;
 	color: #bbbfbe;
 }
-
 .postTitle {
 	text-align: left;
 	color: #ffb45f;
 }
-
 .blogText {
 	font-size: 1.5rem;
 }
@@ -76,7 +74,6 @@ hr {
 	.blog{
 		margin-left:2rem;
 		margin-right:2rem;
-
 	}
 	.postTitle{
 		margin-top:2.5rem !important;
