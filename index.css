@@ -126,39 +126,86 @@ hr {
 
 /*making responive*/
 
-@media (min-width: 400px) {
-	#websiteTag {
-		font-size: 2rem;
-		vertical-align: middle;
-	}
+@media only screen and (max-width: 450px){
+	body { 
+		background-image: url("MountainRange1.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 20%;
+		background-attachment: fixed;
+	}	
 	hr {
-		width: 10rem;
+		width: 8rem;
 	}
-}
-
-@media (max-width: 960px) {
-	.aboutMeText {
-		font-size: 1rem;
-		padding-right: 3rem;
-		padding-left: 3rem
+	#welcome {
+		text-align: center;
+	}
+	#websiteTag {
+		font-size:1.4rem;
+		text-align: center;
+		padding-top: 19rem;
+	}
+	.navbar-toggler-icon{
+		height: 1.7rem;
+		width: 1.7rem;
+		margin-top:0.2rem;
+		margin-left: 0.2rem;
+		position: fixed;
+	}
+	.navbar-brand, .nav-link {
+		margin-left: 1rem;
+		color: #1C2F7A;
+		font-size:1rem;
+	}
+	.navbar-brand{
+		margin-top: 2rem;
+	}
+	#home {
+		margin-top: 1.4rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	#musings {
+		margin-top: 0rem;
+		padding-top: 0;
 	}
 
-	.about{
-		margin-left: 0.4em;
-		margin-right: 0.4rem;
-		margin-bottom: 1.5rem;
+	/*about page*/
+	.about {
+		background:rgba(99, 101, 104,0.65);
+		margin-top: 25rem;
+		margin-right: 1rem;
+		margin-left: 1rem;
+		margin-bottom:3rem;
+		text-align: left;
+		color: #FAEBD7;
 	}
 
 	.display-3{
-		font-size: 2.25rem;
+		font-size: 2.2rem;
+		padding-top: 0.4rem;
 	}
 
-	.headshot {
-		height: 15%;
-		width: 15%;
-	}
-
-	#secondHr {
+	#secondHr{
 		width: 5rem;
+	}
+	.aboutMeText {
+		font-size: 1rem;
+		padding-right: 2rem;
+		padding-left: 2rem;
+		text-align: left;
+	}
+
+	.aboutMeText p{
+		text-align: left;
+		color: #FAEBD7;
+		line-height: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.heading {
+		font-size: 1.3rem;
+		text-align: left;
+		color: black;
 	}
 }
