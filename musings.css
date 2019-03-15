@@ -54,9 +54,9 @@ hr {
 	text-align: left;
 	color: #ffb45f;
 }
-.blogText {
+p{
 	font-size: 1.5rem;
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 	letter-spacing: 0.1rem;
 	line-height: 2.5rem;
 }
