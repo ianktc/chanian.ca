@@ -25,7 +25,7 @@ h3 {
 }
 
 hr {
-	width: 1rem;
+	width: 9rem;
 	color: white;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2) 
@@ -94,7 +94,7 @@ hr {
 	text-align: left;
 	color: #FAEBD7;
 	line-height: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
 }
 
 .heading {
@@ -125,7 +125,7 @@ hr {
 
 /*making responive*/
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
 	body { 
 		align-content: center;
 		background-image: url("MountainRange1.png");
