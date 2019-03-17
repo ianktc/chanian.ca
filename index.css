@@ -134,8 +134,13 @@ a:hover{
 }
 
 .icon {
+	color: black;
 	float: right;
 	text-decoration: none;
+}
+
+.link {
+	color: black;
 }
 
 /*making responive*/
