@@ -6,35 +6,55 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 	<body class="col-xl-12">
 
-		<!-- Nav Bar -->
-		<nav id = "mainNavbar" class="navbar py-0 fixed-top">
-	    
-	      	<button class="navbar-toggler navbar-light" data-toggle = "collapse" data-target = "#navLinks" aria-label = "Toggle navigation">
-	        <span class="navbar-toggler-icon"></span>
-	      	</button>
-	      	
-	      	<div class="collapse navbar-collapse" id="navLinks">
-				<a href="index.html" id="home" class="navbar-brand ml-3">IAN/CHAN</a>
-		        <ul class="navbar-nav">
-				  <li>
-		            <a href="musings.html" id="musings" class="nav-link ml-3">MUSINGS</a>
-		          </li>
-		        </ul>
-	      	</div>
+		<div class="row fixed-top">
+			<div class="col-xl-10">
+				<!-- Nav Bar -->
+				<nav id = "mainNavbar" class="navbar py-0">
+			    
+			      	<button class="navbar-toggler navbar-light" data-toggle = "collapse" data-target = "#navLinks" aria-label = "Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			      	</button>
+			      	
+			      	<div class="collapse navbar-collapse" id="navLinks">
+						<a href="index.html" id="home" class="navbar-brand ml-3">IAN/CHAN</a>
+				        <ul class="navbar-nav">
+						  <li>
+				            <a href="musings.html" id="musings" class="nav-link ml-3">MUSINGS</a>
+				          </li>
+				          <li>
+				            <a href="" id="projects" class="nav-link ml-3">PROJECTS</a>
+				          </li>
+				        </ul>
+			      	</div>
 
-    	</nav>
+		    	</nav>
+	    	</div>
+	    	
+	    	<div class="col-xl-2">
+	    		<a href="https://github.com/ianktc" target=" blank" class="">
+		    		<i class="fab fa-github fa-lg mr-4 mt-4 icon"></i> 
+		    	</a>
+
+		    	<a href="https://www.linkedin.com/in/ian-chan-409316150/" target=" blank" class="">
+		    		<i href="musings.html" class="fab fa-linkedin fa-lg mr-4 mt-4 icon"></i>
+		    	</a>
+			</div>
+
+		</div>			
 
     	<!-- Welcome Banner -->
 		<div class="welcome">
 			<div class="row">
 				<div class="col-xl-12 col-lg-12 welcome">
-					<div><h1 id = "welcomeHeader"></h1>
+					<div>
+						<h1 id = "welcomeHeader"></h1>
 						<h3 id="websiteTag">www.chanian.ca</h3>
 						<hr id="firstHr">
 					</div>
@@ -48,10 +68,26 @@
 				<h1 class ="display-3">about me</h1>
 				<hr id="secondHr" class="my-2">
 				
-				<img src="headshot.jfif" class="headshot pt-2">
-				<h1 class= "heading pt-4 aboutMeText">My name is Ian. Welcome to my lab.</h1>
-				<p class="py-3 aboutMeText">I am currently in First Year General Engineering at the University of Toronto.</p> 
-				<p class="aboutMeText">I created this website with the intention of exploring Web Development while also experimenting with some aspects of Web Design. I enjoy learning about new things. Check out my website! or not. But you've already read this far right?</p>
+				<img src="headshot.jfif" class="headshot pt-4 pb-4">
+				<h1 class= "heading py-4 aboutMeText">My name is Ian. Welcome to my lab.</h1>
+
+				<p class="pb-3 aboutMeText">I am currently in First Year General Engineering at the University of Toronto.</p> 
+
+				<p class="pb-3 aboutMeText">I created this website with the intention of exploring Web Development while also experimenting with some aspects of Web Design. I enjoy learning about new things. Check out my site!</p>
+
+				<h1 class="heading pb-3 aboutMeText">What I do</h1>
+
+				<p class="pb-3 aboutMeText">I am a prospective Computer Engineering student with the intent of specializing in Mechatronics. My skill-set includes computer aided design, microcontroller programming and most recently web development.</p>
+
+				<p class="pb-3 aboutMeText">As a member of the UofT Formula Racing Team, I have experience in a shop environment and am capable at using machining equipment. I received basic lab safety training and worked in a lab environment during the summer of 2018 with the process engineering company - Kingston Process Metallurgy. Being fascinated with robots, I recently built a sumo fighting bot which was prototyped with Arduino and transferred onto a circuit board.</p>
+
+				<p class="pb-3 aboutMeText">I have also been involved with several non-technical initiatives over the past few years. I have experience with mock business consulting through the highschool club <em>DECA</em>. My partner and I competed in the Sports and Entertainment Operations Research category, where we were able to win the provincial title two consecutive years. We went on to compete in the International Career Development Conference and in 2017, my partner and I placed 7th internationaly for our consulting work done with Conquer Training and Education. After highschool I endeavoured to maintain an involvement with business. Myself and two others created the <em>Chestnut Investing Club</em> as a way to learn about investing and keep up with current news in the business world.</p>
+
+				<h1 class="heading pb-3 aboutMeText">More about me</h1>
+
+				<p class="pb-3 aboutMeText">Outside of class, I have several interests including music, basketball and photography. I love hip-hop, and one of my favourite things to do is listen to freestyle cyphers. If you see me, ask me to freestyle - I'll probably say no. Besides hip-hop my ears enjoy RnB, Jazz, and the occassional classical music. I also like playing board games with friends, listening to podcasts, and perusing my favourite subreddits. Want to get to know me more personally? Check out my <a href="musings.html">blog!</a></p>
+
+				<p class="pb-3 aboutMeText">TLDR? My <a href="">resume</a> might help.</p>
 			</div>
 		</div>
 
@@ -66,4 +102,3 @@
 
 	</body>
 </html>
-	
