@@ -7,6 +7,18 @@ body {
 	color: #1C2F7A; 
 }
 
+/*links*/
+
+#resume {
+	position: relative;
+	z-index: 10000 !important;
+}
+
+#musings {
+	position: relative;
+	z-index: 10000 !important;
+}
+
 /*particle.js styles*/
 
 #particle-js {
@@ -134,7 +146,7 @@ hr {
     display: none; 
 }
 
-/*top left icons*/
+/*top right icons*/
 
 a:hover{
 	text-decoration: none;
