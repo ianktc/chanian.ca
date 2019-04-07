@@ -22,12 +22,13 @@ body {
 /*particle.js styles*/
 
 #particle-js {
-  width: 100vh;
-  height: 100vh;
-  vertical-align:bottom;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+	z-index: -10000; 
+	width: 100vh;
+	height: 100vh;
+	vertical-align:bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /*welcome banner styles*/
