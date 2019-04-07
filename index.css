@@ -1,10 +1,21 @@
-body { 
+body {  
 	background-image: url("MountainRange1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 70%;
 	background-attachment: fixed;
-	color: #1C2F7A;
+	color: #1C2F7A; 
+}
+
+/*particle.js styles*/
+
+#particle-js {
+  width: 100vh;
+  height: 100vh;
+  vertical-align:bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*welcome banner styles*/
