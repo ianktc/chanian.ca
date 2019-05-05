@@ -1,67 +1,62 @@
 body {  
-	background-image: url("MountainRange1.png");
+	/*note: new background is lined pattern*/
+	background-image: url("lines.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 70%;
+	background-position: -5rem 0rem;
 	background-attachment: fixed;
+	background-color: rgb(255, 235, 239);
 	color: #1C2F7A; 
+	position: fixed;
 }
 
-/*links*/
+.link{
+	color: black;
+}
 
-#resume {
+#resume #projects{
 	position: relative;
 	z-index: 10000 !important;
-}
-
-#musings {
-	position: relative;
-	z-index: 10000 !important;
-}
-
-/*particle.js styles*/
-
-#particle-js {
-	z-index: -10000; 
-	width: 100vh;
-	height: 100vh;
-	vertical-align:bottom;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 /*welcome banner styles*/
 
-h1 {
+.landing {
+	background-image: url("good.png");
+	background-size: cover;
+	background-position: 0% 100%;
+}
+
+.name {
 	font-family: 'PT Mono', monospace;
+	font-size: 18rem;
+	margin-top: 13rem;
+	margin-left: 5rem;
+	margin-bottom: 16rem;
+	text-shadow: 5px 5px 10px #C0C0C0;
+	font-weight: 600;
+	letter-spacing: -2rem;
+	line-height: 13rem;
+}
+
+.description {
+
+}
+
+.circle{
+	height: 20rem;
+	width: 30rem;
+	background-color: rgb(255, 235, 239);
+	border-radius: 50%;
+	display: inline-block;
+	padding-top: 3.9rem;
+	padding-right: 10rem;
+}
+
+h1 {
 	font-weight: 500;
 	font-size: 7em;
 	color: #1C2F7A;
-}
-
-h3 {
-	font-family: 'PT Mono', monospace;
-	letter-spacing: 2px;
-	font-weight: 700;
-	font-size: 2em;
-	color: #1C2F7A;
-}
-
-hr {
-	width: 10rem;
-	color: white;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2) 
-}
-
-#welcome {
-	text-align: center;
-}
-
-#websiteTag {
-	text-align: center;
-	padding-top: 25rem;
 }
 
 /*navbar styles*/
@@ -69,78 +64,74 @@ hr {
 .mainNavbar{
 	margin-top:5rem;
 }
+ 
+.navbar-nav{ 
+	width: 100%;
+	text-align:center; 
+}
 
 .navbar-brand, .nav-link {
+	font-size: 1.5rem;
+	font-weight: 600;
 	color: #1C2F7A;
+	letter-spacing: 0.1rem;
 }
 
-/*makes hamburger menu blue*/
-.navbar-light .navbar-toggler-icon{
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(27,51,125)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-/*following two classes make border transparent*/
-.navbar-toggler:focus {
-	outline:none !important;
-}
-
-.navbar-toggler {
-	margin-top:1rem;
-	border:transparent;
-}
- 
 /*about pages styles*/
 
-.about {
-	background:rgba(99, 101, 104,0.65);
-	margin-top: 30rem;
-	margin-right: 8rem;
-	margin-left: 8rem;
-	margin-bottom:5rem;
-	color: #FAEBD7;
+.container {
+	margin-top: 10rem;
+	margin-bottom: 12rem;
 }
 
-.display-3 {
-	font-family: 'Trebuchet MS';
-	font-weight: 500;
-	text-align: center;
-	color: #FAEBD7;
+.about{
+	font-weight: 900;
+	margin-left: 9rem;
 }
 
-.aboutMeText {
-	font-size: 1.25rem;
-	padding-right: 10rem;
-	padding-left: 10rem;
+.aboutMeText{
+	margin-right: 6rem;
+	margin-left: 7rem;
 	text-align: left;
+	line-height: 3rem;
+	letter-spacing: 1px;
 }
 
-.aboutMeText p{
-	text-align: left;
-	color: #FAEBD7;
-	line-height: 2rem;
-	margin-bottom: 10rem;
-}
-
-.heading {
-	font-size: 1.75rem;
-	text-align: left;
-	color: black;
-}
-
-.headshot{
-	border-radius: 50%;
-	display: block;
-	height: 15%;
-	width: 15%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#secondHr {
-	color: #FAEBD7;
+#hr {
 	width: 12rem;
 	border-top: 3px solid #1C2F7A;
-	border-bottom: 1px solid rgba(0,0,0,0.2) 
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	margin-left: 7rem;
+}
+
+.container2{
+	background-color: #CCE5FF;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.aboutMeText2{
+	margin-left: 10rem;
+	text-align: left;
+	line-height: 3rem;
+	letter-spacing: 1px;
+}
+
+.headshot {
+	border-radius: 50%;
+	display: block;
+	height: 15rem;
+	width: 15rem;
+}
+
+.footer{
+	background:rgba(99, 101, 104,0.65);
+	padding-top:5px;
+	margin-right: 35rem;
+	margin-left: 35rem;
+	margin-bottom: 1rem;
+	color: #CCE5FF;
 }
 
 ::-webkit-scrollbar { 
@@ -154,17 +145,19 @@ a:hover{
 }
 
 .icon {
-	color: black;
-	float: right;
+	color: #1C2F7A;
+	/*float: center;*/
 	text-decoration: none;
 }
 
-.link {
-	color: black;
+/*scrolled background*/
+.navbar.scrolled {
+	/*background: rgb(222,184,135,0.9);*/
+	background:rgb(255, 235, 239, 0.7);
 }
 
 /*making responive*/
-
+/*need to update the responsiveness*/
 @media only screen and (max-width: 600px){
 	body { 
 		align-content: center;
