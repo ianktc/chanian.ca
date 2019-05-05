@@ -37,7 +37,7 @@ body header {
   justify-content: space-between;
   align-items: center;
   height: 1.1in;
-  background-color: #9c5aa6;
+  background-color: #CCE5FF;
   width: 100%;
   color: white;
 }
@@ -62,7 +62,7 @@ body #columns li {
 }
 body #columns .bullet {
   font-family: "Fira Code";
-  color: #9c5aa6;
+  color: #CCE5FF;
   font-weight: 500;
 }
 body #columns .subtitle-wrapper {

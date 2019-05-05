@@ -22,103 +22,185 @@
 
 </head>
 
+	<body class="col-xl-12 col-xs-12">
 
-	<body class="col-xl-12">
+		<div class="d-none d-lg-block">
+			<div class="row fixed-top">
+				<div class="col-xl-12">
+					
+					<!-- Ian FUCKING REMEMBER THIS SHIT HERE. KNOW HOW TO USE FLEX AND JUSTIFY!  -->
 
-		<div class="row fixed-top">
-			<div class="col-xl-12">
-				
-				<!-- Ian FUCKING REMEMBER THIS SHIT HERE. KNOW HOW TO USE FLEX AND JUSTIFY!  -->
+					<!-- Nav Bar -->
+					<nav id = "main" class="navbar navbar-expand-xl py-0 d-flex justify-content-center">
+					    <div>    
+					        <ul class="navbar-nav">
+					       	  <li>
+				            	<a href="experience.html" id="musings" class="nav-link mt-1">experience</a>
+				          	  </li>
 
-				<!-- Nav Bar -->
-				<nav id = "main" class="navbar navbar-expand-xl py-0 d-flex justify-content-center">
-				    <div>    
-				        <ul class="navbar-nav">
-				       	  <li>
-			            	<a href="experience.html" id="musings" class="nav-link mt-1">experience</a>
-			          	  </li>
+				          	  <li>
+					            <a href="projects.html" id="projects" class="nav-link mt-1 mx-5">projects</a>
+					          </li>
 
-			          	  <li>
-				            <a href="projects.html" id="projects" class="nav-link mt-1 mx-5">projects</a>
-				          </li>
+							  <li>
+					            <a href="musings.html" id="musings" class="nav-link mt-1">musings</a>
+					          </li>
+					        </ul>
+				    	</div>
+			    	</nav>
 
-						  <li>
-				            <a href="musings.html" id="musings" class="nav-link mt-1">musings</a>
-				          </li>
-				        </ul>
-			    	</div>
-		    	</nav>
-	    	</div>
-	    	
-		</div>	
+		    	</div>
+			</div>	
 
-		<!-- Landing Page -->
-		<div class="row landing">
-			<div class="d-flex align-items-center col-xl-6">
-				<div>
-					<h1 class="name d-flex justify-content-center">ian chan</h1>
-				</div>	
-			</div>
-			<!-- <div class="circle"></div> -->
-			<div class="d-flex align-items-center justify-content-center col-xl-6">
-					<div class="description circle">
-						<h2 class="justify-content-start">engineer</h2>
-						<h2 class="justify-content-start">developer</h2>
-						<h2 class="justify-content-start">tinkerer</h2>
-						<h2 class="justify-content-start">creative</h2>
-					</div>
-			</div>
-		</div>
-
-		<!-- About Pages -->
-
-		<div class="row container">
-			<div class="col-xl-6 d-flex align-items-center">
-				<h1 class="about">about</h1>
-			</div>
-
-			<div class="col-xl-6 d-flex align-items-center">
-				<div class="row">
-					<h3 class="col-xl-12 pl-0 aboutMeText">My name is Ian. I'm an undergraduate Computer Engineering student at the University of Toronto.</h3>
-					<hr id="hr" class="">
-					<h3 class="col-xl-12 pl-0 aboutMeText">My skill-set includes computer aided design, microcontroller programming and most recently web development. I enjoy learning and experimenting with new things; check out my <b><a href="projects.html" class="link" id="projects">projects</a></b>!</h3>
+			<!-- Landing Page -->
+			<div class="row landing">
+				<div class="d-flex align-items-center col-xl-6 col-xs-2">
+					<div class="">
+						<h1 class="name d-flex justify-content-center">ian chan</h1>
+					</div>	
+				</div>
+				<div class="d-flex align-items-center justify-content-center col-xl-6">
+					<!-- using bootstrap to hide this when the screen is less than l -->
+						<div class="description circle d-none d-lg-block">
+							<h2 class="justify-content-start">engineer</h2>
+							<h2 class="justify-content-start">developer</h2>
+							<h2 class="justify-content-start">tinkerer</h2>
+							<h2 class="justify-content-start">creative</h2>
+						</div>
 				</div>
 			</div>
+
+			<!-- About Pages -->
+
+			<div class="row container">
+				<div class="col-xl-6 d-flex align-items-center">
+					<h1 class="about">about</h1>
+				</div>
+
+				<div class="col-xl-6 d-flex align-items-center">
+					<div class="row">
+						<h3 class="col-xl-12 pl-0 aboutMeText">My name is Ian. I'm an undergraduate Computer Engineering student at the University of Toronto.</h3>
+						<hr id="hr" class="">
+						<h3 class="col-xl-12 pl-0 aboutMeText">My skill-set includes computer aided design, microcontroller programming and most recently web development. I enjoy learning and experimenting with new things; check out my <b><a href="projects.html" class="link" id="projects">projects</a></b>!</h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="row container2">
+				<div class="col-xl-8">
+					<h3 class="aboutMeText1">Some of my interest include music, basketball and photography. I love hip-hop, and one of my favourite things to do is listen to freestyle cyphers. If you see me, ask me to freestyle - I'll probably say no. Besides hip-hop my ears enjoy RnB, Jazz, and the occassional classical music. I also like playing board games with friends, listening to podcasts, and perusing my favourite subreddits. Want to get to know me more personally? Check out my <b><a href="musings.html" class="link" id="musings">blog!</a></b></h3>
+
+					<h3 class="mt-5 aboutMeText1">TLDR? My <b><a href="resume.pdf" class="link" id = "resume">resume</a></b> might help.</h3>
+				</div> 
+				<div class="col-xl-4 d-flex align-items-center justify-content-center">
+					<img src="headshot.jfif" class="headshot">
+				</div>
+			</div>
+			
+			<!-- footer -->
+			<div class="row">
+				<div class="col-xl-12 d-flex justify-content-center mt-5 mb-3">
+					 <a href="https://github.com/ianktc" target=" blank" class="icon">
+				    	<i class="fab fa-github fa-2x"></i> 
+				    </a>
+
+			    	<a href="https://www.linkedin.com/in/ian-chan-409316150/" target=" blank" class="icon mx-5">
+			    		<i class="fab fa-linkedin fa-2x"></i>
+			    	</a>
+
+			    	<a href="resume.pdf" target=" blank" class="icon">
+			    		<i class="fas fa-file-alt fa-2x"></i>
+			    	</a>	
+				</div>
+			</div>
+
+			<div class="row footer">
+				<div class="col-xl-12 d-flex justify-content-center">
+					<h5 class="">ian chan. 2019. made with &hearts;</h5>
+				</div>
+			</div>
+
 		</div>
 
-		<div class="row container2">
-			<div class="col-xl-8">
-				<h3 class="aboutMeText2">Some of my interest include music, basketball and photography. I love hip-hop, and one of my favourite things to do is listen to freestyle cyphers. If you see me, ask me to freestyle - I'll probably say no. Besides hip-hop my ears enjoy RnB, Jazz, and the occassional classical music. I also like playing board games with friends, listening to podcasts, and perusing my favourite subreddits. Want to get to know me more personally? Check out my <b><a href="musings.html" class="link" id="musings">blog!</a></b></h3>
+		<!-- responsive for mobile -->
 
-				<h3 class="mt-5 aboutMeText2">TLDR? My <b><a href="resume.pdf" class="link" id = "resume">resume</a></b> might help.</h3>
-			</div> 
-			<div class="col-xl-4 d-flex align-items-center justify-content-center">
-				<!-- <h1 class="about d-flex justify-content-end">words</h1> -->
-				<img src="headshot.jfif" class="headshot">
+		<div class="col-xs-12 d-block d-sm-none">
+			<!-- nav bar and landing page-->
+			<div class="row landing1 d-flex justify-content-center">
+				<div class="col-xs-12">
+					<ul class="navbar-nav">
+			       	  <li>
+		            	<a href="experience.html" id="experience" class="nav-link">experience</a>
+		          	  </li>
+		          	  <li>
+			            <a href="projects.html" id="projects" class="nav-link">projects</a>
+			          </li>
+
+					  <li>
+			            <a href="musings.html" id="musings" class="nav-link">musings</a>
+			          </li>
+			        </ul>
+				</div>
+
+				<div class="">
+					<h1 class="name1 ml-4">ian chan</h1>	
+				</div>
 			</div>
-		</div>
-		
-		<!-- footer -->
-		<div class="row">
-			<div class="col-xl-12 d-flex justify-content-center mt-5 mb-3">
-				 <a href="https://github.com/ianktc" target=" blank" class="icon">
-			    	<i class="fab fa-github fa-2x"></i> 
-			    </a>
 
-		    	<a href="https://www.linkedin.com/in/ian-chan-409316150/" target=" blank" class="icon mx-5">
-		    		<i class="fab fa-linkedin fa-2x"></i>
-		    	</a>
-
-		    	<a href="resume.pdf" target=" blank" class="icon">
-		    		<i class="fas fa-file-alt fa-2x"></i>
-		    	</a>	
+			<!-- about -->
+			<div class="row d-flex justify-content-center">
+				<div class="col-xs-12">
+					<h1 class="about1 display-3">about</h1>
+				</div>
 			</div>
-		</div>
-
-		<div class="row footer">
-			<div class="col-xl-12 d-flex justify-content-center">
-				<h5 class="">ian chan. 2019. made with &hearts;</h5>
+			
+			<div class="row d-flex justify-content-center">
+				<div class="col-xs-12">
+					<h5 class="aboutMeText1 mx-5">My name is Ian. I'm an undergraduate Computer Engineering student at the University of Toronto.</h5>
+					<hr id="hr1">
+					<h5 class="aboutMeText1 mx-5">My skill-set includes computer aided design, microcontroller programming and most recently web development. I enjoy learning and experimenting with new things; check out my <b><a href="projects.html" class="link" id="projects">projects</a></b>!</h5>	
+				</div>
 			</div>
+
+			<!-- about more -->
+			<div class="row d-flex justify-content-center container3">
+				
+				<div class="col-xl-12 d-flex align-items-center justify-content-center">
+					<!-- <h1 class="about d-flex justify-content-end">words</h1> -->
+					<img src="headshot.jfif" class="headshot1">
+				</div>
+
+				<div class="col-xs-12">
+					<h5 class="aboutMeText1 mx-5">Some of my interest include music, basketball and photography. I love hip-hop, and one of my favourite things to do is listen to freestyle cyphers. If you see me, ask me to freestyle - I'll probably say no. Besides hip-hop my ears enjoy RnB, Jazz, and the occassional classical music. I also like playing board games with friends, listening to podcasts, and perusing my favourite subreddits. Want to get to know me more personally? Check out my <b><a href="musings.html" class="link" id="musings">blog!</a></b></h5>
+
+					<h5 class="mt-5 aboutMeText1 mx-5">TLDR? My <b><a href="resume.pdf" class="link" id = "resume">resume</a></b> might help.</h5>
+				</div> 
+
+			</div>
+
+			<!-- footer -->
+			<div class="row">
+				<div class="col-xl-12 d-flex justify-content-center mt-5 mb-3">
+					<a href="https://github.com/ianktc" target=" blank" class="icon">
+				    	<i class="fab fa-github fa-2x"></i> 
+				    </a>
+
+			    	<a href="https://www.linkedin.com/in/ian-chan-409316150/" target=" blank" class="icon mx-5">
+			    		<i class="fab fa-linkedin fa-2x"></i>
+			    	</a>
+
+			    	<a href="resume.pdf" target=" blank" class="icon">
+			    		<i class="fas fa-file-alt fa-2x"></i>
+			    	</a>	
+				</div>
+			</div>
+
+			<div class="row d-flex justify-content-center">
+				<div class="col-xs-12 footer1 px-3 mb-4">
+					<h5 class="">ian chan. 2019. made with &hearts;</h5>	
+				</div>
+			</div>
+
 		</div>
 
 	    <!-- Optional JavaScript -->

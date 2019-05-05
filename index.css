@@ -7,14 +7,13 @@ body {
 	background-attachment: fixed;
 	background-color: rgb(255, 235, 239);
 	color: #1C2F7A; 
-	position: fixed;
 }
 
 .link{
 	color: black;
 }
 
-#resume #projects{
+#resume #projects #experience{
 	position: relative;
 	z-index: 10000 !important;
 }
@@ -24,7 +23,16 @@ body {
 .landing {
 	background-image: url("good.png");
 	background-size: cover;
-	background-position: 0% 100%;
+	background-position: center;
+} 
+
+.landing1{
+	background-image: url("good.png");
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: 0rem 0rem;
+	padding-bottom: 8rem;
+	padding-top: 2rem;
 }
 
 .name {
@@ -37,6 +45,17 @@ body {
 	font-weight: 600;
 	letter-spacing: -2rem;
 	line-height: 13rem;
+}
+
+.name1{
+	font-family: 'PT Mono', monospace;
+	font-size: 10rem;
+	text-shadow: 5px 5px 10px #C0C0C0;
+	font-weight: 600;
+	letter-spacing: -1rem;
+	line-height: 7rem;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
 }
 
 .description {
@@ -77,24 +96,51 @@ h1 {
 	letter-spacing: 0.1rem;
 }
 
+.nav-link1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #1C2F7A;
+	letter-spacing: 0.1rem;
+}
+
 /*about pages styles*/
 
 .container {
 	margin-top: 10rem;
 	margin-bottom: 12rem;
+	margin-left: 9rem;
 }
 
 .about{
 	font-weight: 900;
-	margin-left: 9rem;
+}
+
+.about1{
+	font-weight: 600;
 }
 
 .aboutMeText{
 	margin-right: 6rem;
-	margin-left: 7rem;
+	margin-left: 4rem;
 	text-align: left;
 	line-height: 3rem;
 	letter-spacing: 1px;
+}
+
+.aboutMeText1{
+	text-align: left;
+	line-height: 3rem;
+	letter-spacing: 1px;
+	margin-top: 1rem;
+	margin-left: 6rem;
+}
+
+#hr1 {
+	width: 5rem;
+	border-bottom: 3px solid #1C2F7A;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	margin-left: 3rem;
+	margin-top: 1rem;
 }
 
 #hr {
@@ -111,11 +157,11 @@ h1 {
 	padding-bottom: 10rem;
 }
 
-.aboutMeText2{
-	margin-left: 10rem;
-	text-align: left;
-	line-height: 3rem;
-	letter-spacing: 1px;
+.container3{
+	background-color: #CCE5FF;
+	margin-top: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 .headshot {
@@ -125,12 +171,25 @@ h1 {
 	width: 15rem;
 }
 
+.headshot1{
+	border-radius: 50%;
+	display: block;
+	height: 10rem;
+	width: 10rem;
+}
+
 .footer{
 	background:rgba(99, 101, 104,0.65);
 	padding-top:5px;
-	margin-right: 35rem;
-	margin-left: 35rem;
+	margin-right: 34rem;
+	margin-left: 34rem;
 	margin-bottom: 1rem;
+	color: #CCE5FF;
+}
+
+.footer1{
+	background:rgba(99, 101, 104,0.65);
+	padding-top:5px;
 	color: #CCE5FF;
 }
 
@@ -154,96 +213,4 @@ a:hover{
 .navbar.scrolled {
 	/*background: rgb(222,184,135,0.9);*/
 	background:rgb(255, 235, 239, 0.7);
-}
-
-/*making responive*/
-/*need to update the responsiveness*/
-@media only screen and (max-width: 600px){
-	body { 
-		align-content: center;
-		background-image: url("MountainRange1.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50% 20%;
-		background-attachment: fixed;
-	}	
-	.about {
-		justify-content: center;
-	}
-	#welcome {
-		text-align: center;
-	}
-	#websiteTag {
-		font-size:1.4rem;
-		text-align: center;
-		padding-top: 14rem;
-	}
-	hr {
-	width: 3rem;
-	color: white;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0,0,0,0.2) 
-	}
-	.navbar-toggler-icon{
-		height: 1.7rem;
-		width: 1.7rem;
-		margin-top:0.2rem;
-		margin-left: 0.2rem;
-		position: fixed;
-	}
-	.navbar-brand, .nav-link {
-		margin-left: 1rem;
-		color: #1C2F7A;
-		font-size:1rem;
-	}
-	.navbar-brand{
-		margin-top: 2rem;
-	}
-	#home {
-		margin-top: 1.4rem;
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}
-	#musings {
-		margin-top: 0;
-		padding-top: 0;
-	}
-
-	/*about page*/
-	.about {
-		background:rgba(99, 101, 104,0.65);
-		margin-top: 25rem;
-		margin-right: auto;
-		margin-left: auto;
-		margin-bottom:1rem;
-		color: #FAEBD7;
-	}
-
-	.display-3{
-		font-size: 2.2rem;
-		padding-top: 0.4rem;
-	}
-
-	#secondHr{
-		width: 5rem;
-	}
-	.aboutMeText {
-		font-size: 1rem;
-		padding-right: 2rem;
-		padding-left: 2rem;
-		text-align: left;
-	}
-
-	.aboutMeText p{
-		text-align: left;
-		color: #FAEBD7;
-		line-height: 2rem;
-		padding-bottom: 2rem;
-	}
-
-	.heading {
-		font-size: 1.3rem;
-		text-align: left;
-		color: black;
-	}
 }

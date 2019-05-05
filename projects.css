@@ -4,6 +4,10 @@ font-weight:400;
 margin-top:3rem;
 }
 
+.title1{
+	text-align:center;
+}
+
 .documentation {
 	margin-left: 20rem;
 	margin-right: 20rem;
@@ -16,6 +20,11 @@ hr {
 	width: 12rem;
 	border-top: 3px solid #1C2F7A;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.return {
+	color: #1C2F7A;
+	text-decoration: none;
 }
 
 /*top right icons*/
