@@ -15,6 +15,22 @@ margin-top:3rem;
 	margin-bottom: 5rem;
 }
 
+.pc {
+	background-color: rgb(255, 235, 239);
+	padding: 2rem;
+	border-radius: 1rem;
+	margin-bottom: 5rem;
+}
+
+.pc1 {
+	background-color: rgb(255, 235, 239);
+	padding: 2rem;
+}
+
+.text {
+	color:#bbbfbe;
+}
+
 hr {
 	color: black;
 	width: 12rem;
@@ -25,6 +41,12 @@ hr {
 .return {
 	color: #1C2F7A;
 	text-decoration: none;
+}
+
+/*pc build*/
+
+.pcpp-part-list-type{
+	padding-right: 10rem;
 }
 
 /*top right icons*/

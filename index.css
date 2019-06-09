@@ -22,8 +22,9 @@ body {
 
 .landing {
 	background-image: url("good.png");
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center;
+	background-repeat: no-repeat;
 } 
 
 .landing1{
@@ -105,7 +106,7 @@ h1 {
 
 /*about pages styles*/
 
-.container {
+.box {
 	margin-top: 10rem;
 	margin-bottom: 12rem;
 	margin-left: 9rem;
