@@ -9,7 +9,7 @@
   color: inherit;
 }
 * i {
-  vertical-align: middle;
+  vert`al-align: middle;
 }
 *.no-margin {
   margin-bottom: 0 !important;
@@ -37,7 +37,7 @@ body header {
   justify-content: space-between;
   align-items: center;
   height: 1.1in;
-  background-color: #CCE5FF;
+  background-color: #9c5aa6;
   width: 100%;
   color: white;
 }
@@ -62,7 +62,7 @@ body #columns li {
 }
 body #columns .bullet {
   font-family: "Fira Code";
-  color: #CCE5FF;
+  color: #9c5aa6;;
   font-weight: 500;
 }
 body #columns .subtitle-wrapper {
@@ -70,6 +70,14 @@ body #columns .subtitle-wrapper {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-top: 10px;
+}
+body #columns .extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
 }
 body #columns .subtitle-wrapper .date {
   font-family: "Fira Code", sans-serif;

@@ -107,9 +107,9 @@ h1 {
 /*about pages styles*/
 
 .holder {
-	margin-top: 10rem;
-	margin-bottom: 12rem;
-	margin-left: 9rem;
+	margin-top: 10rem !important;
+	margin-bottom: 12rem !important; 
+	margin-left: 9rem !important;
 }
 
 .about{
