@@ -105,6 +105,14 @@ hr {
 	color: #ffb45f;
 }
 
+.subtitle {
+	font-size: 1.25rem;
+	letter-spacing: 0.1rem;
+	line-height: 2.5rem;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
 .blogText{
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
