@@ -59,10 +59,6 @@ body {
 	margin-bottom: 4rem;
 }
 
-.description {
-
-}
-
 .circle{
 	height: 20rem;
 	width: 30rem;
@@ -123,6 +119,15 @@ h1 {
 .aboutMeText{
 	margin-right: 6rem;
 	margin-left: 4rem;
+	text-align: left;
+	line-height: 3rem;
+	letter-spacing: 1px;
+}
+
+.projectText{
+	margin-top: 3rem;
+	margin-right: 3rem;
+	margin-left: 6rem;
 	text-align: left;
 	line-height: 3rem;
 	letter-spacing: 1px;
