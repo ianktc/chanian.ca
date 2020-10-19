@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir", "Arial";
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+  color: inherit;
+}
+* i {
+  vertical-align: middle;
+}
+*.no-margin {
+  margin-bottom: 0 !important;
+}
+
+body {
+  width: 8.5in;
+  height: 11in;
+}
+body li {
+  list-style: none;
+}
+body h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+body h4 {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+body header {
+  padding: 0 0.4in;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.1in;
+  background-color: #9c5aa6;
+  width: 100%;
+  color: white;
+}
+body #columns {
+  width: 100%;
+  display: grid;
+  border: 2px solid #ededed;
+  border-top: none;
+  padding: 4% 5%;
+  padding-bottom: 3%;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 5%;
+}
+body #columns #oath-location {
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  font-weight: bold;
+}
+body #columns li {
+  font-size: 14px;
+}
+body #columns .bullet {
+  font-family: "Fira Code";
+  color: #9c5aa6;
+  font-weight: 500;
+}
+.map {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+.subtitle-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.subtitle-wrapper .date {
+  font-family: "Fira Code", sans-serif;
+  font-size: 13px;
+  margin-bottom: 10px;  
+  margin-left: 50px;
+}
+.subtitle-wrapper .subtitle {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 10px;  
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.body-wrapper .text{
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10px;  
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+.heading {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.rule {
+  /*width: 1000px;*/
+  width: 718px;
+  margin: auto;
+  margin-bottom: 50px
+}
+body #columns .section {
+  margin-bottom: 20px;
+}
+body #columns .section h2 {
+  margin-bottom: 10px;
+}
+body #columns .section .subsection {
+  margin-bottom: 15px;
+}
+body #columns .section .subsection .description li {
+  margin-bottom: 5px;
+  line-height: 16px;
+}
+body #columns .section .subsection .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body #columns .section .subsection .title.no-subtitle {
+  margin-bottom: 6px;
+}
+body #columns .section .subsection .title p {
+  font-size: 14px;
+  padding: 2px 5px;
+  margin: 2px 0;
+  display: inline-block;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  color: darker(#EEEEEE, 0.5);
+}
+body #columns .section .subsection .title p span {
+  color: #9c5aa6;
+  font-weight: bold;
+}
+body #columns .languages-list {
+  margin: 5px 0;
+}
+body #columns .languages-list li {
+  padding: 2px 5px;
+  margin: 2px 0;
+  display: inline-block;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+}
+body #columns #education {
+  margin-bottom: 18px;
+}
+body #columns #education p {
+  font-size: 14px;
+}
+body #columns #education .years, body #columns #education span {
+  font-family: "Fira Code";
+  margin-bottom: 10px;
+}
+body .degree {
+  margin-bottom: 1rem;
+}
+body .last {
+  margin-top: 1rem;
+}
